@@ -4,9 +4,9 @@ function CustomerCard({ customer }) {
         <>
         <CustomerProfile
   profile={{
-    name: customer.name,
-    role: customer.role,
-    location: customer.location,
+    name: customer?.name,
+    role: customer?.role,
+    location: customer?.location,
   }}
 />
         
