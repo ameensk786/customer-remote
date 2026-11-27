@@ -10,6 +10,7 @@ export default defineConfig({
       filename: 'remoteEntry.js',
       exposes: {
         './CustomerCard': './src/CustomerCard.jsx',
+
       },
       shared: ['react', 'react-dom'],
     }),
